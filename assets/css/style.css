@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+/*General css*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+.container {
+    padding: 60px 20px;
+}
+h1, h2 {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+}
+h1 {
+    font-size: 38px;
+}
+p {
+    color: #9fa3a6;
+}
+
+/*HEADER AREA*/
+header {
+    background-image: url('../images/bg-header-desktop.png');
+    background-size: cover;
+    background-position: center;
+    height: 230px;  
+}
+.header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+}
+.header-img img {
+    max-width: 100px;
+    width: 100%;
+}
+
+/*SECTION clipboard-introduction*/
+.clipboard-introduction {
+    text-align: center;
+    max-width: 650px;
+    margin: auto;
+}
+.clipboard-introduction p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.link-for--devices {
+    display: flex;
+
+}
+.link-ios {
+    flex: 1;
+}
+.link-ios a {
+    display: inline-block;
+    width: 70%;
+    background-color: #26bca3;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 1px #2f9681;
+    color: #fff;
+    margin-left: 80px;
+
+}
+.link-ios a:hover {
+    text-decoration: underline;
+}
+.link-mac {
+    flex: 1;
+}
+.link-mac a {
+    display: inline-block;
+    width: 70%;
+    background-color: #6174ff;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 1px #5964bd;
+    color: #fff;
+    margin-right: 80px;
+
+}
+.link-mac a:hover {
+    text-decoration: underline;
+}
