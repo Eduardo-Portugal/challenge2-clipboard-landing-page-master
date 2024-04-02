@@ -15,9 +15,6 @@ body {
     font-style: normal;
     font-size: 18px;
 }
-.container {
-    padding: 60px 20px;
-}
 h1, h2 {
     font-family: "Bai Jamjuree", sans-serif;
     font-weight: 600;
@@ -189,4 +186,52 @@ header {
 /*SECTION downloads*/
 .downloads p {
     margin-bottom: 50px;
+}
+
+/*Footer*/
+footer {
+    background-color: #f4f5f7;
+    margin-top: 150px;
+    padding: 60px 30px;
+}
+.footer-area {
+    display: flex;
+}
+.footer-area .leftside {
+    flex: 1;
+}
+.footer-area .leftside img{
+    width: 90px;
+    margin-left: 30px;
+}
+.footer-area .middleside {
+    flex: 3;
+    display: flex;
+}
+.footer-area .middleside div {
+    margin-right: 40px;
+}
+.footer-area .middleside a {
+    display: block;
+    margin-bottom: 20px;
+    color: #414448;
+}
+.footer-area .middleside a:hover {
+    text-decoration: underline;
+}
+.footer-area .rightside {
+    flex: 1;
+}
+.footer-area .rightside .social-medias img {
+    margin-right: 20px;
+}
+.attribution {
+    margin-top: 50px;
+    text-align: center;
+}
+.attribution a {
+    color: #6174ff;
+}
+.attribution a:hover {
+    text-decoration: underline;
 }
