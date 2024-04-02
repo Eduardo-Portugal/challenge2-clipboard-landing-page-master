@@ -74,7 +74,7 @@ header {
     background-color: #26bca3;
     padding: 10px;
     border-radius: 20px;
-    box-shadow: 1px 2px 1px #2f9681;
+    box-shadow: 2px 2px 2px #2f9681;
     color: #fff;
     margin-left: 80px;
 
@@ -91,7 +91,7 @@ header {
     background-color: #6174ff;
     padding: 10px;
     border-radius: 20px;
-    box-shadow: 1px 2px 1px #5964bd;
+    box-shadow: 2px 2px 2px #5964bd;
     color: #fff;
     margin-right: 80px;
 
@@ -173,4 +173,20 @@ header {
 }
 .supercharge-item:last-child {
     margin-right: 0px;
+}
+
+/*SECTION companies*/
+.companies {
+    padding-top: 180px;
+    padding-bottom: 160px;
+    display: flex;
+}
+.company-logo {
+    text-align: center;
+    flex: 1;
+}
+
+/*SECTION downloads*/
+.downloads p {
+    margin-bottom: 50px;
 }
