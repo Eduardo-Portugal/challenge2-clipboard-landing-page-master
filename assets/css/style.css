@@ -235,3 +235,78 @@ footer {
 .attribution a:hover {
     text-decoration: underline;
 }
+
+/*RESPONSIVITY*/
+
+@media (max-width: 768px) {
+    .clipboard-introduction h1 {
+        font-size: 32px;
+    }
+    .clipboard-introduction p {
+        font-size: 15px;
+    }
+    .link-for--devices {
+        flex-direction: column;
+    }
+    .link-ios a {
+        margin-left: 0px;
+    }
+    .link-mac a {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .keep-track .description-area p {
+        padding: 0px 20px;
+    }
+    .photo-info--area {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 80px 20px;
+    }
+    .keep-track .leftside {
+        margin-bottom: 50px;
+    }
+    .photo-info--area .rightside {
+        margin-left: 0px;
+    }
+    .supercharge-items {
+        flex-direction: column;
+    }
+    .supercharge-item {
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    .companies {
+        padding-top: 90px;
+        padding-bottom: 90px;
+        flex-direction: column;
+    }
+    .companies .company-logo {
+        margin-bottom: 60px;
+    }
+    .footer-area {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-area .leftside img {
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .footer-area .middleside {
+        text-align: center;
+        flex-direction: column;
+    }
+    .footer-area .middleside div {
+        margin-right: 0px;
+    }
+    .footer-area .middleside a {
+        margin-bottom: 40px;
+    }
+    .footer-area .middleside div:last-child {
+        margin-bottom: 30px;
+    }
+    #no-margin {
+        margin-right: 0px;
+    }
+}
